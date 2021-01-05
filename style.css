@@ -1,0 +1,76 @@
+* {
+    
+}
+
+body {
+    /* background-color: rgba(147, 140, 117, 0.897); */
+    background-color: rgba(245, 245, 245, 0.904);
+    ;
+}
+
+.about {
+    background-color: rgb(255, 86, 83);
+    opacity: 0.9;
+    margin: 8%;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 10px 15px black;
+    min-height: 200px;
+    border-radius: 8px;
+}
+
+.projects {
+    background-color: rgb(50, 68, 232);
+    opacity: 0.9;
+    margin: 8%;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 10px 15px black;
+    color: whitesmoke;
+    min-height: 200px;
+    border-radius: 8px;
+}
+
+.contact {
+    background-color: rgb(255, 86, 83);
+    opacity: 0.9;
+    margin: 8%;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 10px 15px black;
+    color: whitesmoke;
+    min-height: 200px;
+    border-radius: 8px;
+}
+#aboutTitle {
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+}
+#aboutTitle, #projectsTitle,
+#contactTitle {
+    align-items: center;
+    /* display: flex; */
+    text-align: center;
+    font-family: Monaco;
+    color: whitesmoke;
+}
+
+#aboutIntro, #projectsIntro,
+#contactIntro {
+    align-items: center;
+    text-align: center;
+    font-family: Monaco;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#aboutButton, #projectsButton,
+#contactButton {
+    color: rgb(40, 40, 40);
+    font-family: Monaco;
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
