@@ -26,11 +26,42 @@ body {
     font-family: Monaco;
     text-decoration: none;
     justify-content: space-between;
-    color: rgb(255, 86, 83);
+    /* color: rgb(255, 86, 83); */
     font-size: 15px;
     font-weight: 700;
     margin: 25px;
 }
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 86, 83);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 86, 83);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px solid #ff7400
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+/* navLeft a:link, navLeft a:visited,
+navLeft a:hover, navLeft a:active,
+navRight a:link, navRight a:visited,
+navRight a:hover, navRight a:active {
+    text-decoration: none;
+    color: rgb(255, 86, 83);
+} */
+
+
 
 .navbarItem i {
     color: rgb(255, 86, 83);
@@ -103,7 +134,7 @@ body {
     border-radius: 4px;
 }
 
-.container {
+.container1 {
     min-width: 100%;
     min-height: 1000px;
     justify-content: center;
@@ -114,6 +145,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
 }
+
 .intro {
     font-family: helvetica;
     align-items: center;
@@ -129,4 +161,41 @@ body {
     font-family: Monaco;
     color: rgba(245, 245, 245, 0.858);
     text-align: center;
+}
+
+.container2 {
+    min-width: 100%;
+    min-height: 1000px;
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.works h6 {
+    font-family: Monaco;
+    color: rgba(245, 245, 245, 0.858);
+    text-align: center;
+}
+
+.footer {
+    min-width: 100%;
+    position: absolute;
+    justify-content: center;
+    
+    align-items: stretch;
+}
+
+.footer p {
+    font-family: Monaco;
+    color: rgba(245, 245, 245, 0.858);
+    text-align: center;
+}
+
+.footer i {
+    display: flex;
+    justify-content: center;
 }
