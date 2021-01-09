@@ -1,11 +1,39 @@
 * {
-    
+    background-color: rgb(50, 68, 232);
+}
+body {
+    background-color: rgb(50, 68, 232);
 }
 
-body {
-    /* background-color: rgba(147, 140, 117, 0.897); */
-    background-color: rgba(245, 245, 245, 0.904);
-    ;
+.navbar {
+    min-width: 100%;
+    background-color: rgb(50, 68, 232);
+    height: 80px;
+    box-shadow: 2px 2px 12px rgb(255, 86, 83);
+    padding: 0px 5%;
+}
+
+.navLeft {
+    float: left;
+}
+
+.navRight {
+    float: right;
+}
+
+.navRight a, 
+.navLeft a  {
+    font-family: Monaco;
+    text-decoration: none;
+    justify-content: space-between;
+    color: rgb(255, 86, 83);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+.navbarItem i {
+    color: rgb(255, 86, 83);
 }
 
 .about {
@@ -22,7 +50,7 @@ body {
 .projects {
     background-color: rgb(50, 68, 232);
     opacity: 0.9;
-    margin: 8%;
+    margin: 3%;
     display: flex;
     flex-flow: column;
     box-shadow: 5px 10px 15px black;
@@ -73,4 +101,32 @@ body {
     margin-right: 42%;
     margin-bottom: 5px;
     border-radius: 4px;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 1000px;
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.intro {
+    font-family: helvetica;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-weight: bold;
+}
+
+.intro h1,
+.intro h6 {
+    font-family: Monaco;
+    color: rgba(245, 245, 245, 0.858);
+    text-align: center;
 }
