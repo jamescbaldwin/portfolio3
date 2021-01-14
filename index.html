@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO (iteration3)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">  
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="glider.min.css" type="text/css"> --> 
     <script src="https://kit.fontawesome.com/1a303cde7e.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -37,60 +37,73 @@
             </div>  
         </div>
     </div>
-    <div class="container2">
+
+    <div class="container2" id="portfolio">
         <div class="works">
             <div class="row">
                 <H6>HERE ARE A FEW PROJECTS THAT I'VE COMPLETED THUS FAR, EITHER INDIVUDALLY, OR IN COLLABORATION WITH FELLOW PROGRAMMERS.</H5>
             </div>  
         </div>
     </div>
+    <div class="glider-contain multiple">
 
-    <!-- <div class="about">
-        <h1 id="aboutTitle">JCB4</h1>
-        <h4 id="aboutIntro">I'm a native North Carolinian, and I still reside in the RTP. I'm currently a UNC Bootcamp student, but am quickly developing a passion for design and new technologies.</h4>
-        <button id="aboutButton">ABOUT ME</button>
-    </div>
+        <h1>WORKING PORTFOLIO</h1>
+        
+        <button class="glider-prev">
+            <i class="fas fa-chevron-left"></i>
+        </button>
 
-    <div class="projects">
-        <h1 id="projectsTitle">PORTFOLIO</h1>
-        <h4 id="projectsIntro">For an exhaustive collection of projects, visit James' repository at github.com/jamescbaldwin</h4>
-        <div id="projectsExpo">
-            <div class="box-container">
-                <div class="box-1">
-                    <h3>EAT DA BURGER</h3>
-                    <button class="button"> <a href="https://jamescbaldwin.github.io/Eat-Da-Burger/" target="blank">VIEW REPOSITORY!</a></button>
-                    <button class="button btn2"> <a href="https://enigmatic-beach-90908.herokuapp.com/" target="blank">SEE THE APP!</a></button>
-                </div>
-                <div class="box-2">
-                    <h3>WANDER PLUS</h3>
-                    <button class="button"> <a href="https://github.com/jamescbaldwin/WANDER-PLUS" target="blank">VIEW REPOSITORY!</a></button>
-                    <button class="button btn2"> <a href="https://jamescbaldwin.github.io/WANDER-PLUS/" target="blank">SEE THE APP!</a></button>
-                </div>
-                <div class="box-3">
-                    <h3>PASSWORD GENERATOR</h3>
-                    <button class="button"> <a href="https://github.com/jamescbaldwin/JavaScript-Password-Generator" target="blank">VIEW REPOSITORY!</a></button>
-                    <button class="button btn2"> <a href="https://jamescbaldwin.github.io/JavaScript-Password-Generator/" target="blank">SEE THE APP!</a></button>
-                </div>
-                </div>
+        <div class="glider">
+           <div class="card">
+               <blockquote>"PROJECT1"</blockquote>
+               <caption>James Baldwin</caption>
+           </div>
+           <div class="card">
+               <blockquote>"PROJECT2"</blockquote>
+               <caption>James Baldwin</caption>
+           </div>
+           <div class="card">
+               <blockquote>"Password GENERATOR"</blockquote>
+               <caption>James Baldwin</caption>
+           </div>
+           <div class="card">
+               <blockquote>"EAT DA BURGER"</blockquote>
+               <caption>James Baldwin</caption>
+           </div>
+           <div class="card">
+               <blockquote>"WorkoutTracker"</blockquote>
+               <caption>James Baldwin</caption>
+           </div>
         </div>
-        <button id="projectsButton">GO TO GITHUB</button>
+
+        <button class="glider-next">
+           <i class="fas fa-chevron-right"></i>
+       </button>
+
+       <div id="dots" class="glider-dots"></div>
+
     </div>
 
-    <div class="contact">
-        <h1 id=contactTitle>CONTACT</h1>
-        <h4 id="contactIntro">For consultation ... please contact James via .....</h4>
-        <button id="contactButton">CONTACT JAMES</button>
-    </div> -->
+ 
 
         <footer class="footer">
             <p id="footer-text">FOR COLLABORATION, INSIGHTS, OR GENERAL CONTACT, PLEASE CLICK ON AN ICON BELOW. <br>OR YOU CAN EMAIL JAMES AT jamescbaldwin@gmail.com</p>
             <div class="social" id="contact">
-                <a href="https://www.facebook.com/jamescbaldwiniv" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                <a href="https://www.linkedin.com/in/james-baldwin-98446838/" target=")_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/jamescbaldwiniv/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <p>
+                <a href="https://www.facebook.com/jamescbaldwiniv" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/james-baldwin-98446838/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+                <a href="https://www.instagram.com/jamescbaldwiniv/" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+                <a href="https://github.com/jamescbaldwin" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            </p>
             </div>
             <p class="copyright">© 2021 Trilogy Education Services x UNC Chapel Hill. Aesthetic inspired by Roger Federer's 2015 Roland Garros kit.</p>
         </footer>
+
+    <!-- <script src="glider.min.js"></script> -->
     
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="glider.js"></script>
+    
+
 </body>
 </html>

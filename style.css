@@ -24,16 +24,16 @@ body {
 .navRight a, 
 .navLeft a  {
     font-family: Monaco;
-    text-decoration: none;
+    /* text-decoration: none; */
     justify-content: space-between;
-    /* color: rgb(255, 86, 83); */
+    color: rgb(255, 86, 83);
     font-size: 15px;
     font-weight: 700;
     margin: 25px;
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration-color: none;
     color: rgb(255, 86, 83);
 }
 
@@ -43,9 +43,9 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: rgb(255, 255, 255);
-    margin-bottom: 3px solid #ff7400
+    /* margin-bottom: 3px solid #ff7400 */
 }
 
 a:active {
@@ -165,14 +165,15 @@ navRight a:hover, navRight a:active {
 
 .container2 {
     min-width: 100%;
-    min-height: 1000px;
+    min-height: 500px;
     justify-content: center;
     display: flex;
     align-items: stretch;
     padding-top: 300px;
-    padding-bottom: 300px;
+    /* padding-bottom: 50px; */
     padding-left: 200px;
     padding-right: 200px;
+    margin-bottom: 30px;
 }
 
 .works h6 {
@@ -182,6 +183,7 @@ navRight a:hover, navRight a:active {
 }
 
 .footer {
+    margin-top: 300px;
     min-width: 100%;
     position: absolute;
     justify-content: center;
@@ -195,7 +197,22 @@ navRight a:hover, navRight a:active {
     text-align: center;
 }
 
-.footer i {
-    display: flex;
-    justify-content: center;
+.social i {
+    margin: 10px;
+}
+
+.glider-contain {
+    max-width: 84%;
+    margin-left: 8%;
+    background-color: rgb(50, 68, 232);
+}
+
+.glider-prev i, 
+.glider-next i {
+    color: rgb(255, 86, 83);
+    opacity: 1.0;
+}
+
+#dots {
+    color: rgb(245, 245, 245);
 }
