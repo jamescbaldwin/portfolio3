@@ -1,6 +1,11 @@
 * {
     background-color: rgb(50, 68, 232);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(50, 68, 232);
 }
@@ -32,7 +37,7 @@ body {
     margin: 25px;
 }
 
-a:link {
+/* a:link {
     text-decoration-color: none;
     color: rgb(255, 86, 83);
 }
@@ -40,11 +45,11 @@ a:link {
 a:visited {
     text-decoration: none;
     color: rgb(255, 86, 83);
-}
+} */
 
 a:hover {
     /* text-decoration: none; */
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     /* margin-bottom: 3px solid #ff7400 */
 }
 
@@ -199,6 +204,7 @@ navRight a:hover, navRight a:active {
 
 .social i {
     margin: 10px;
+    color: rgb(255, 86, 83);
 }
 
 .glider-contain {
@@ -212,7 +218,20 @@ navRight a:hover, navRight a:active {
     color: rgb(255, 86, 83);
     opacity: 1.0;
 }
-
+ .multiple {
+     background-color: rgb(50, 68, 232);
+ }
 #dots {
-    color: rgb(245, 245, 245);
+    color: rgb(8, 8, 8);
+}
+
+div.glider {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+div.glider img {
+    width: 400px;
+    height: 300px;
+    align-items: center;
 }
