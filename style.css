@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(50, 68, 232);
+    background-color: rgb(50, 68, 232)!important;
 }
 
 html {
@@ -37,16 +37,6 @@ body {
     margin: 25px;
 }
 
-/* a:link {
-    text-decoration-color: none;
-    color: rgb(255, 86, 83);
-}
-
-a:visited {
-    text-decoration: none;
-    color: rgb(255, 86, 83);
-} */
-
 a:hover {
     /* text-decoration: none; */
     color: rgb(255, 255, 255) !important;
@@ -57,16 +47,6 @@ a:active {
     text-decoration: none;
     color: rgb(245, 245, 245);
 }
-
-/* navLeft a:link, navLeft a:visited,
-navLeft a:hover, navLeft a:active,
-navRight a:link, navRight a:visited,
-navRight a:hover, navRight a:active {
-    text-decoration: none;
-    color: rgb(255, 86, 83);
-} */
-
-
 
 .navbarItem i {
     color: rgb(255, 86, 83);
@@ -106,10 +86,12 @@ navRight a:hover, navRight a:active {
     min-height: 200px;
     border-radius: 8px;
 }
+
 #aboutTitle {
     text-decoration: underline;
     text-decoration-thickness: from-font;
 }
+
 #aboutTitle, #projectsTitle,
 #contactTitle {
     align-items: center;
@@ -151,20 +133,23 @@ navRight a:hover, navRight a:active {
     padding-right: 200px;
 }
 
-.intro {
-    font-family: helvetica;
-    align-items: center;
-    justify-content: center;
-}
-
 .intro h1 {
     font-weight: bold;
+    text-align: center !important;
 }
 
 .intro h1,
-.intro h6 {
+.intro p {
     font-family: Monaco;
     color: rgba(245, 245, 245, 0.858);
+    align-items: center;
+    text-align: center;
+}
+
+.intro h6 {
+    font-family: Monaco;
+    color:rgb(255, 86, 83);
+    align-items: center;
     text-align: center;
 }
 
@@ -185,6 +170,15 @@ navRight a:hover, navRight a:active {
     font-family: Monaco;
     color: rgba(245, 245, 245, 0.858);
     text-align: center;
+}
+
+#worksHeader {
+    color: whitesmoke;
+    font-family: Monaco;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+   
 }
 
 .footer {
@@ -234,4 +228,26 @@ div.glider img {
     width: 400px;
     height: 300px;
     align-items: center;
+}
+
+.glider .card {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Monaco;
+    border: none;
+    /* outline: rgb(50, 68, 232); */
+}
+
+.card img {
+    margin: 15px;
+}
+
+.card a {
+    color: rgb(255, 86, 83);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5px;
 }
