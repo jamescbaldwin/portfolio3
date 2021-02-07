@@ -1,18 +1,19 @@
-* {
+/* * {
     background-color: rgb(7, 159, 159)!important;
-}
+} */
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: rgb(7, 159, 159);
+    background-color: rgb(7, 159, 159)!important;
 }
 
 .navbar {
     min-width: 100%;
-    background-color: rgb(7, 159, 159);
+    background-color: rgba(20, 47, 104, 0.87)!important;
+    /* background-color: rgb(7, 159, 159); */
     height: 80px;
     box-shadow: 2px 2px 12px rgba(213, 213, 213, 0.856);
     padding: 0px 5%;
@@ -30,7 +31,8 @@ body {
 .navLeft a  {
     font-family: Monaco;
     justify-content: space-between;
-    color: rgba(20, 47, 104, 0.87);
+    color: rgb(7, 159, 159);
+    /* color: rgba(20, 47, 104, 0.87); */
     font-size: 15px;
     font-weight: 700;
     margin: 25px;
@@ -103,10 +105,10 @@ a:active {
     justify-content: center;
     display: flex;
     align-items: stretch;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
-    margin-bottom: 1px;
+    margin-bottom: -150px;
 }
 
 .works h1 {
@@ -152,6 +154,7 @@ div.glider img {
 }
 
 .glider .card {
+    background-color: rgb(7, 159, 159);
     display: flexbox;
     flex-direction: column;
     align-items: center;
