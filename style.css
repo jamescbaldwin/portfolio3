@@ -1,5 +1,4 @@
 * {
-    /* background-color: rgb(50, 68, 232)!important; */
     background-color: rgb(7, 159, 159)!important;
 }
 
@@ -53,8 +52,6 @@ a:active {
 .container1 {
     min-width: 100%;
     min-height: 1000px;
-    /* justify-content: center;
-    display: flex; */
     flex-direction: row;
     align-items: stretch;
     padding-top: 300px;
@@ -107,7 +104,6 @@ a:active {
     display: flex;
     align-items: stretch;
     padding-top: 150px;
-    /* padding-bottom: 50px; */
     padding-left: 200px;
     padding-right: 200px;
     margin-bottom: 1px;
@@ -120,7 +116,6 @@ a:active {
 }
 
 #worksHeader {
-    /* color: whitesmoke; */
     color: rgba(20, 47, 104, 0.87);
     font-family: Monaco;
     font-weight: bold;
@@ -137,7 +132,6 @@ a:active {
 
 .glider-prev i, 
 .glider-next i {
-    /* color: rgb(255, 86, 83); */
     opacity: 1.0;
     color: rgba(20, 47, 104, 0.87);
 }
@@ -145,10 +139,6 @@ a:active {
 .multiple {
      background-color: rgb(7, 159, 159);
 }
-
-/* .dots {
-    color: rgb(255, 255, 255);
-} */
 
 div.glider {
     margin-left: 30%;
@@ -177,7 +167,6 @@ div.glider img {
 }
 
 .card a {
-    /* color: rgb(255, 86, 83); */
     color: rgba(20, 47, 104, 0.87);
     font-size: 15px;
     font-weight: 700;
@@ -189,7 +178,6 @@ div.glider img {
     min-width: 100%;
     position: absolute;
     justify-content: center;
-    
     align-items: stretch;
 }
 
@@ -202,5 +190,4 @@ div.glider img {
 .social i {
     margin: 10px;
     color: rgba(20, 47, 104, 0.87);
-    /* color: rgb(255, 86, 83); */
 }
