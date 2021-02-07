@@ -1,5 +1,6 @@
 * {
-    background-color: rgb(50, 68, 232)!important;
+    /* background-color: rgb(50, 68, 232)!important; */
+    background-color: rgb(7, 159, 159)!important;
 }
 
 html {
@@ -7,14 +8,14 @@ html {
 }
 
 body {
-    background-color: rgb(50, 68, 232);
+    background-color: rgb(7, 159, 159);
 }
 
 .navbar {
     min-width: 100%;
-    background-color: rgb(50, 68, 232);
+    background-color: rgb(7, 159, 159);
     height: 80px;
-    box-shadow: 2px 2px 12px rgb(255, 86, 83);
+    box-shadow: 2px 2px 12px rgba(213, 213, 213, 0.856);
     padding: 0px 5%;
 }
 
@@ -29,18 +30,15 @@ body {
 .navRight a, 
 .navLeft a  {
     font-family: Monaco;
-    /* text-decoration: none; */
     justify-content: space-between;
-    color: rgb(255, 86, 83);
+    color: rgba(20, 47, 104, 0.87);
     font-size: 15px;
     font-weight: 700;
     margin: 25px;
 }
 
 a:hover {
-    /* text-decoration: none; */
     color: rgb(255, 255, 255) !important;
-    /* margin-bottom: 3px solid #ff7400 */
 }
 
 a:active {
@@ -49,88 +47,31 @@ a:active {
 }
 
 .navbarItem i {
-    color: rgb(255, 86, 83);
-}
-
-.about {
-    background-color: rgb(255, 86, 83);
-    opacity: 0.9;
-    margin: 8%;
-    display: flex;
-    flex-flow: column;
-    box-shadow: 5px 10px 15px black;
-    min-height: 200px;
-    border-radius: 8px;
-}
-
-.projects {
-    background-color: rgb(50, 68, 232);
-    opacity: 0.9;
-    margin: 3%;
-    display: flex;
-    flex-flow: column;
-    box-shadow: 5px 10px 15px black;
-    color: whitesmoke;
-    min-height: 200px;
-    border-radius: 8px;
-}
-
-.contact {
-    background-color: rgb(255, 86, 83);
-    opacity: 0.9;
-    margin: 8%;
-    display: flex;
-    flex-flow: column;
-    box-shadow: 5px 10px 15px black;
-    color: whitesmoke;
-    min-height: 200px;
-    border-radius: 8px;
-}
-
-#aboutTitle {
-    text-decoration: underline;
-    text-decoration-thickness: from-font;
-}
-
-#aboutTitle, #projectsTitle,
-#contactTitle {
-    align-items: center;
-    /* display: flex; */
-    text-align: center;
-    font-family: Monaco;
-    color: whitesmoke;
-}
-
-#aboutIntro, #projectsIntro,
-#contactIntro {
-    align-items: center;
-    text-align: center;
-    font-family: Monaco;
-    color: whitesmoke;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#aboutButton, #projectsButton,
-#contactButton {
-    color: rgb(40, 40, 40);
-    font-family: Monaco;
-    margin-left: 42%;
-    margin-right: 42%;
-    margin-bottom: 5px;
-    border-radius: 4px;
+    color: rgba(20, 47, 104, 0.87);
 }
 
 .container1 {
     min-width: 100%;
     min-height: 1000px;
-    justify-content: center;
-    display: flex;
+    /* justify-content: center;
+    display: flex; */
+    flex-direction: row;
     align-items: stretch;
     padding-top: 300px;
     padding-bottom: 300px;
     padding-left: 200px;
     padding-right: 200px;
+}
+
+#profilePicture {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 22px rgb(43, 43, 43);
 }
 
 .intro h1 {
@@ -148,32 +89,39 @@ a:active {
 
 .intro h6 {
     font-family: Monaco;
-    color:rgb(255, 86, 83);
+    color: rgba(20, 47, 104, 0.87);
     align-items: center;
     text-align: center;
 }
 
+.contentRow p {
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 .container2 {
     min-width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     justify-content: center;
     display: flex;
     align-items: stretch;
-    padding-top: 300px;
+    padding-top: 150px;
     /* padding-bottom: 50px; */
     padding-left: 200px;
     padding-right: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
 }
 
-.works h6 {
+.works h1 {
     font-family: Monaco;
     color: rgba(245, 245, 245, 0.858);
     text-align: center;
 }
 
 #worksHeader {
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: rgba(20, 47, 104, 0.87);
     font-family: Monaco;
     font-weight: bold;
     justify-content: center;
@@ -181,43 +129,26 @@ a:active {
    
 }
 
-.footer {
-    margin-top: 300px;
-    min-width: 100%;
-    position: absolute;
-    justify-content: center;
-    
-    align-items: stretch;
-}
-
-.footer p {
-    font-family: Monaco;
-    color: rgba(245, 245, 245, 0.858);
-    text-align: center;
-}
-
-.social i {
-    margin: 10px;
-    color: rgb(255, 86, 83);
-}
-
 .glider-contain {
     max-width: 84%;
     margin-left: 8%;
-    background-color: rgb(50, 68, 232);
+    background-color: rgb(7, 159, 159);
 }
 
 .glider-prev i, 
 .glider-next i {
-    color: rgb(255, 86, 83);
+    /* color: rgb(255, 86, 83); */
     opacity: 1.0;
+    color: rgba(20, 47, 104, 0.87);
 }
- .multiple {
-     background-color: rgb(50, 68, 232);
- }
-#dots {
-    color: rgb(8, 8, 8);
+
+.multiple {
+     background-color: rgb(7, 159, 159);
 }
+
+/* .dots {
+    color: rgb(255, 255, 255);
+} */
 
 div.glider {
     margin-left: 30%;
@@ -238,16 +169,38 @@ div.glider img {
     color: whitesmoke;
     font-family: Monaco;
     border: none;
-    /* outline: rgb(50, 68, 232); */
 }
 
 .card img {
     margin: 15px;
+    border-radius: 6px;
 }
 
 .card a {
-    color: rgb(255, 86, 83);
+    /* color: rgb(255, 86, 83); */
+    color: rgba(20, 47, 104, 0.87);
     font-size: 15px;
     font-weight: 700;
     margin-top: 5px;
+}
+
+.footer {
+    margin-top: 300px;
+    min-width: 100%;
+    position: absolute;
+    justify-content: center;
+    
+    align-items: stretch;
+}
+
+.footer p {
+    font-family: Monaco;
+    color: rgba(245, 245, 245, 0.858);
+    text-align: center;
+}
+
+.social i {
+    margin: 10px;
+    color: rgba(20, 47, 104, 0.87);
+    /* color: rgb(255, 86, 83); */
 }
